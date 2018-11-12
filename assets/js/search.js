@@ -30,7 +30,7 @@
     }
   }
 
-  function executeSearch (searchItems) {
+  function executeSearch (searchTerm, searchItems) {
     var idx = lunr(function () {
       this.ref('id', { boost: 10 });
       this.field('title', { boost: 10 });
@@ -53,15 +53,16 @@
     if (searchTerm) {
       document.getElementById('current-search').value = searchTerm;
       if (window.searchItems) {
-        executeSearch(window.searchItems);
+        executeSearch(searchTerm, window.searchItems);
       } else {
         axios.get('/search-data.json')
           .then((response) => {
             window.searchItems = response.data;
-            executeSearch(window.searchItems);
+            executeSearch(searchTerm, window.searchItems);
           })
           .catch((err) => {
             console.error('Error retrieving search data');
+            console.error(err);
           })
       }
     } else {
