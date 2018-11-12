@@ -6,7 +6,7 @@ description: Information about robotics in Mason, MI, including FIRST LEGO Leagu
 navigation:
  - title: Home
    url: /index.html
- - title: FLL
-   url: /fll.html
  - title: Resources
    url: /resources.html
+ - title: Recent Posts
+   url: /posts.html
