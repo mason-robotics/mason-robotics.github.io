@@ -1,0 +1,15 @@
+---
+title: Search Results
+layout: default
+skipIndexing: true
+---
+<h1>Search Results</h1>
+
+<form class="form-inline my-2 my-md-0" action="/search.html" method="get">
+  <input class="form-control" type="text" name="query" placeholder="Search" id="current-search">
+</form>
+<br/>
+<ul id="search-results"></ul>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.5/lunr.min.js"></script>
+<script src="/assets/js/search.js"></script>

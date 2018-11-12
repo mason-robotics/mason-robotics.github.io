@@ -1,0 +1,27 @@
+<header>
+  <div class="container">
+    <nav class="navbar navbar-dark bg-dark">
+      <h1 id="site-title" onclick="window.location.href = '/index.html';">{{ site.title | default: site.github.repository_name }}</h1>
+      <button class="navbar-toggler collapsed float-left" type="button" data-toggle="collapse" data-target="#navbarsExample05"
+        aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse collapse" id="navbarsExample05" style="">
+        <ul class="navbar-nav mr-auto">
+          {% for item in site.navigation %}
+          <li class="nav-item{% if page.url == item.url %} active{% endif %}">
+            <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+        <form class="form-inline my-2 my-md-0" action="/search.html" method="get">
+          <input class="form-control" type="text" name="query" placeholder="Search">
+        </form>
+      </div>
+    </nav>
+    <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+    <section id="downloads">
+    </section>
+  </div>
+</header>

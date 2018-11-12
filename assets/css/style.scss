@@ -1,0 +1,16 @@
+---
+skipIndexing: true
+---
+@import "{{ site.theme }}";
+
+#site-title {
+  cursor: pointer;
+}
+
+nav ul li {
+  list-style-image: none;
+}
+
+nav.navbar {
+  background-color: transparent!important;
+}

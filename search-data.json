@@ -1,0 +1,27 @@
+---
+skipIndexing: true
+---
+{% capture newline %}
+{% endcapture %}
+{%- assign indexedPages = site.pages | where_exp: "item", "item.skipIndexing != true" | where_exp: "item", "item.url != '/feed.xml'" -%}
+{%- assign id = 0 -%}
+[{% for post in site.posts %}
+  {
+    "id": "{{ id }}{% assign id = id | plus: 1 %}",
+    "title": "{{ post.title | xml_escape }}",
+    "type": "post",
+    "author": "{{ post.author | xml_escape }}",
+    "category": "{{ post.category | xml_escape }}",
+    "content": {{ post.content | strip_html | replace: newline, ' ' | jsonify }},
+    "url": "{{ post.url | xml_escape }}"
+  },{% endfor %}{% for page in indexedPages %}
+  {
+    "id": "{{ id }}{% assign id = id | plus: 1 %}",
+    "title": "{{ page.title | xml_escape }}",
+    "type": "page",
+    "author": "{{ page.author | xml_escape }}",
+    "category": "{{ page.category | xml_escape }}",
+    "content": {{ page.content | strip_html | replace: newline, ' ' | jsonify }},
+    "url": "{{ page.url | xml_escape }}"
+  }{% unless forloop.last %},{% endunless %}{% endfor %}
+]
