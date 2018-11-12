@@ -1,7 +1,7 @@
 <header>
   <div class="container">
     <nav class="navbar navbar-dark bg-dark">
-      <h1 id="site-title" onclick="window.location.href = '/index.html';">{{ site.title | default: site.github.repository_name }}</h1>
+      <span id="site-title" onclick="window.location.href = '/index.html';">{{ site.title | default: site.github.repository_name }}</span>
       <button class="navbar-toggler collapsed float-left" type="button" data-toggle="collapse" data-target="#navbarsExample05"
         aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -20,7 +20,7 @@
         </form>
       </div>
     </nav>
-    <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+    <h2 id="tagline">{{ site.description | default: site.github.project_tagline }}</h2>
     <section id="downloads">
     </section>
   </div>
