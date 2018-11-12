@@ -30,37 +30,44 @@
     }
   }
 
-  function executeSearch () {
+  function executeSearch (searchItems) {
+    var idx = lunr(function () {
+      this.ref('id', { boost: 10 });
+      this.field('title', { boost: 10 });
+      this.field('author');
+      this.field('category');
+      this.field('content');
+      this.field('url');
+
+      searchItems.forEach(function (doc) {
+        this.add(doc);
+      }, this);
+    });
+    var results = idx.search(searchTerm);
+    displaySearchResults(results, searchItems);
+  }
+
+  function loadSearchItems () {
     var searchTerm = getQueryVariable('query');
 
     if (searchTerm) {
       document.getElementById('current-search').value = searchTerm;
-      axios.get('/search-data.json')
-        .then((response) => {
-          var searchItems = response.data;
-
-          var idx = lunr(function () {
-            this.ref('id', { boost: 10 });
-            this.field('title', { boost: 10 });
-            this.field('author');
-            this.field('category');
-            this.field('content');
-            this.field('url');
-
-            searchItems.forEach(function (doc) {
-              this.add(doc);
-            }, this);
-          });
-          var results = idx.search(searchTerm);
-          displaySearchResults(results, searchItems);
-        })
-        .catch((err) => {
-          console.error('Error retrieving search data');
-        })
+      if (window.searchItems) {
+        executeSearch(window.searchItems);
+      } else {
+        axios.get('/search-data.json')
+          .then((response) => {
+            window.searchItems = response.data;
+            executeSearch(window.searchItems);
+          })
+          .catch((err) => {
+            console.error('Error retrieving search data');
+          })
+      }
     } else {
       displaySearchResults([], undefined);
     }
   }
 
-  window.addEventListener('load', executeSearch)
+  window.addEventListener('load', loadSearchItems)
 })();
