@@ -26,19 +26,18 @@ FIRST LEGO League is an alliance between FIRST & the LEGO Group. FLL teams resea
 * [What is FIRST LEGO League](http://www.firstlegoleague.org/about-fll)
 * [Official FLL Main Page](https://www.firstinspires.org/robotics/fll)
 * [FLL Challenge Information](http://www.firstlegoleague.org/challenge)
-* [2019 Event Guide for Teams](https://firstinspiresst01.blob.core.windows.net/fll/2019/fll-event-guide.pdf)
+* [Event Guide for Teams](https://firstinspiresst01.blob.core.windows.net/fll/2019/fll-event-guide.pdf)
+* [Coaches' Handbook](https://www.firstinspires.org/sites/default/files/uploads/resource_library/fll/into-orbit/first-lego-league-coaches-handbook-20182019.pdf)
 
 ---
 
 ### Into Orbit
 
-* [YouTube Into Orbit Playlist](https://www.youtube.com/playlist?list=PLhyXKCvo9b0LSKD4XQIlIrDaksb_67cqT)
+* [Official Into Orbit Info Page](https://info.firstinspires.org/into-orbit)
+* [Brendon's Into Orbit YouTube Playlist](https://www.youtube.com/playlist?list=PLhyXKCvo9b0LSKD4XQIlIrDaksb_67cqT)
 * [Ideas for Projects](https://fllblog.wordpress.com/2018/11/09/almost-infinite-resources/)
+* [Tips and Tricks for Challenges](https://www.fllcasts.com/competitions/first-lego-league/2018-into-orbit/tips-and-tricks)
 
 Robot Game Table
 
 ![Into Orbit Table Overview](/assets/uploads/into-orbit-table-overview.jpg)
-
-### Manuals
-
-* [Event Guide for Teams](https://firstinspiresst01.blob.core.windows.net/fll/2019/fll-event-guide.pdf)
