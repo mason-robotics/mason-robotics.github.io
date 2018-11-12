@@ -4,8 +4,6 @@ title: Resources
 date: 2018-11-11T01:17:41.931Z
 tags: []
 ---
-# Resources
-
 ## Organizations
 
 ---
