@@ -6,8 +6,8 @@
         <h1>./{% if page.layout == 'post' %}Blog{% else %}{{ page.title }}{% endif %}</h1>
         {{ content }}
       </section>
+      {% include comments.html %}
     </div>
-{% include comments.html %}
 {% include js-includes.html %}
 {% include google-analytics.html %}
   </body>
