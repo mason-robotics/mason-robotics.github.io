@@ -10,3 +10,6 @@ navigation:
    url: /resources.html
  - title: Blog
    url: /posts.html
+# Disqus Comments
+disqus:
+  shortname: mpsrobotics

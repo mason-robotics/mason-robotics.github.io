@@ -3,6 +3,7 @@ layout: default
 title: Resources
 date: 2018-11-11T01:17:41.931Z
 tags: []
+comments: true
 ---
 
 ## FIRST (For Inspiration and Recognition of Science and Technology)

@@ -5,6 +5,7 @@ date: 2018-11-16T23:56:01.472Z
 author: Brendon Thiede
 categories: [FLL]
 tags: [FLL, Into Orbit, Meeting]
+comments: true
 ---
 
 For this week's meeting we got together and watched a video explaining [how the International Space Station toilet works](https://www.youtube.com/watch?v=C-65mBQ7s_Q), after which the team brainstormed on different difficulties of space travel, which lead to discussion of nuclear power, waste disposal, time travel, asteroids, and more.
