@@ -1,12 +1,12 @@
 github: [metadata]
 theme: jekyll-theme-hacker
-title: Mason Robotics
-description: Information about robotics in Mason, MI, including FIRST LEGO League
+title: MPS Robotics
+description: Information about robotics at Mason Public Schools in Mason, MI, including FIRST LEGO League
 # google_analytics: [Your Google Analytics tracking ID]
 navigation:
  - title: Home
    url: /index.html
  - title: Resources
    url: /resources.html
- - title: Recent Posts
+ - title: Blog
    url: /posts.html

@@ -7,7 +7,7 @@ skipIndexing: true
 ---
 Welcome to the informational site for Mason robotics
 
-## Core Values <small>(<a href="https://www.firstinspires.org/robotics/fll/core-values">link</a>)</small>
+## Core Values <small>([link](https://www.firstinspires.org/robotics/fll/core-values))</small>
 
 The *FIRST* Core Values are the cornerstones of the program.
 They are among the fundamental elements that distinguish *FIRST* LEGO League from other programs of its kind.
