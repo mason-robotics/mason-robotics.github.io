@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First Robot Build
-date: 2018-12-05T00:39:14.976Z
+date: 2018-12-04T19:39:14.976Z
 author: Brynn Thiede
 categories: [FLL]
 tags: [FLL, Into Orbit, Meeting]
