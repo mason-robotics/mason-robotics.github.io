@@ -32,6 +32,7 @@ FIRST LEGO® League is an alliance between FIRST & the LEGO® Group. FLL teams r
 
 ### Into Orbit (2019 Challenge)
 
+* [Online Robot Challenge Scorer](http://flltutorials.com/Resources/2018/scorer/index.html)
 * [Official Into Orbit Info Page](https://info.firstinspires.org/into-orbit)
 * [Challenge Letter (project details are on the last page)](https://firstinspiresst01.blob.core.windows.net/fll/2019/FIRST-FLL-2018-19-Challenge-Letter.pdf)
 * [Challenge Guide Letter (more detailed than the Challenge Letter)](https://firstinspiresst01.blob.core.windows.net/fll/2019/FIRST-FLL-2018-19-ChallengeGuide-Letter.pdf)
