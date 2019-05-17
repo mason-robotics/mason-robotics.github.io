@@ -2,7 +2,7 @@
 layout: post
 title: Robot Challenge - Mission 11 - Escape Velocity
 date: 2019-05-17T00:37:57Z
-author: Abby
+author: Brendon Thiede
 categories: [FLL]
 tags: [FLL, Into Orbit, Meeting]
 comments: true
