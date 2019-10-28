@@ -20,6 +20,10 @@ In order to upgrade the Ruby Gems used by Jekyll, run the following:
 bundle update
 ```
 
+## Comments
+
+The site uses Disqus for comments. All comments must be approved.
+
 ## Contributing
 
 Fork the repo and then create a PR
