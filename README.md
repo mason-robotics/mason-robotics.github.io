@@ -19,3 +19,7 @@ In order to upgrade the Ruby Gems used by Jekyll, run the following:
 ```powershell
 bundle update
 ```
+
+## Contributing
+
+Fork the repo and then create a PR
