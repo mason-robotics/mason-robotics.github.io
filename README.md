@@ -6,9 +6,16 @@ A GitHub Pages site for sharing information about the Mason Robotics program, in
 
 In order to run this locally, you will need to setup Jekyll. [Click here for instructions](https://jekyllrb.com/docs/installation/).
 
+Before starting the local Jekyll the first time you need to run from this directory:
+
+```powershell
+gem install bundler:1.16.2
+bundle install
+```
+
 To start Jekyll, you can run the following:
 
-```bash
+```powershell
 bundle exec jekyll serve
 ```
 
