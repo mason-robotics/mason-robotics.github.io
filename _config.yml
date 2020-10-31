@@ -13,3 +13,5 @@ navigation:
 # Disqus Comments
 disqus:
   shortname: mpsrobotics
+plugins:
+  - jekyll-feed
