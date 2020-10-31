@@ -7,6 +7,8 @@ skipIndexing: true
 ---
 Welcome to the informational site for Mason robotics
 
+*NOTE* This site is not currently maintained, but is left here in case any of the information provided is useful. To contribute to the site, you can submit a pull request to the [mason-robotics.github.io](https://github.com/mason-robotics/mason-robotics.github.io) GitHub repository.
+
 ## Core Values <small>([link](https://www.firstinspires.org/robotics/fll/core-values))</small>
 
 The *FIRST* Core Values are the cornerstones of the program.
