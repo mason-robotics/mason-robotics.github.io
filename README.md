@@ -1,6 +1,6 @@
 # mason-robotics.github.io
 
-A GitHub Pages site for sharing information about the Mason Robotics program, including FIRST LEGO League.
+A GitHub Pages site for sharing information about the Mason Robotics program, including FIRST LEGO League. Visit the site [here](https://mason-robotics.github.io).
 
 ## Running Locally
 
